@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>ToDo App</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h1 class="title">ToDo App</h1>
+        <p class="text">a Useful tool to keep you focused on your daily tasks</p>
+        <form id="search-task">
+          <input type="text" placeholder="Search Task..." />
+          <button class="add"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+
+      <div id="task-wrapper">
+        <ul id="task-list">
+          <li>
+            <span class="task-name">Master The DOM Manipulation</span>
+            <span class="delete-task"><i class="fas fa-trash-alt"></i></span>
+          </li>
+          <li>
+            <span class="task-name">Basics of ES6</span>
+            <span class="delete-task"><i class="fas fa-trash-alt"></i></span>
+          </li>
+          <li>
+            <span class="task-name">Time For React boi</span>
+            <span class="delete-task"><i class="fas fa-trash-alt"></i></span>
+          </li>
+        </ul>
+      </div>
+      <div class="footer">
+      <form id="add-task">
+        <input type="text" placeholder="Add Task..." />
+
+        <button class="add"><i class="fas fa-plus-circle"></i></i></button>
+      </div>
+      </form>
+    </div>
+  
+
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"
+    ></script>
+
+    <script src="index.js"></script>
+
+    
+  </body>
+</html>
